@@ -1,0 +1,43 @@
+.hero{
+    align-items: center;
+    background: linear-gradient(90deg,rgba(0,0,0,.9),rgba(68,68,68,.35)),url(../../../public/Home/home-img.jpg) no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    display: flex;
+    max-height: 100rem;
+}
+
+.mainContent {
+    max-width: 30rem;
+    margin: 2rem 4rem 0;
+}
+
+.mainContent h3 {
+    color: #fff;
+    font-size: 4rem;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.mainContent span {
+    color: #ffc107;
+    text-transform: uppercase;
+}
+
+.mainContent p {
+    color: #eee;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding: 0.5rem 0;
+
+}
+
+.mainContent .btn {
+    background: #ffc107;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.7rem;
+    margin: 1rem 0 2rem;
+    padding: 0.9rem 3rem;
+}

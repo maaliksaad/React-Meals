@@ -1,0 +1,16 @@
+.teamCard{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    width: 25rem;
+}
+.teamCard img{
+    border-radius: 50%;
+    width: 5rem;
+}
+
+@media(max-width: 610px){
+    .teamCard{
+        width: auto;
+    }
+}

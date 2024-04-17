@@ -1,0 +1,58 @@
+.mainContainer{
+  background: linear-gradient(90deg,rgba(0,0,0,.9),rgba(68,68,68,.35)),url(../../../public/Home/home-img.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 1rem;
+  border-radius: 1rem;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 7rem;
+  
+}
+.mainContainer h3 {
+  color: #fff;
+  font-size: 4rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.mainContainer span {
+  color: #ffc107;
+  text-transform: uppercase;
+}
+
+.container input {
+  border-radius: 10rem 0 0 10rem;
+  border: none;
+  height: 3rem;
+  width: 20rem;
+  background-color: #f1f1f1;
+  padding: 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  outline: none;
+}
+
+.container button {
+  color: grey;
+  height: 3rem;
+  width: 5rem;
+  font-size: 1rem;
+  border-radius: 0 10rem 10rem 0;
+  border: none;
+  background-color: goldenrod;
+  color: white;
+  opacity: 0.8;
+  outline: none;
+}
+
+.container button:hover {
+  opacity: 1;
+  cursor: pointer;
+}
