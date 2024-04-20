@@ -53,22 +53,10 @@ const About = () => {
           Our<span> Team</span>
         </h3>
         <div className={classes.container}>
-          <TeamCard
-            img="./Home/person-1.jpeg"
-            name="Muhammad Saad Aziz"
-          />
-          <TeamCard
-            img="./Home/person-2.jpg"
-            name="Muhammad Uzair Basharat"
-          />
-          <TeamCard
-            img="./Home/person-3.jpg"
-            name="Ali Iftikhar"
-          />
-          <TeamCard
-            img="./Home/person-3.jpg"
-            name="Fahad Rehman"
-          />
+          <TeamCard img="./Home/person-1.jpeg" name="Jhon Doe" />
+          <TeamCard img="./Home/person-2.jpg" name="Alen Kin" />
+          <TeamCard img="./Home/person-3.jpg" name="Adidas San" />
+          <TeamCard img="./Home/person-3.jpg" name="Gojo Sataru" />
         </div>
       </section>
     </>

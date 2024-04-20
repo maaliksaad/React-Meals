@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(
   cors({
     credentials: true,
-    origin: ["http://localhost:3000"],
+    origin: ["https://react-meals-self.vercel.app/"],
   })
 );
 
